@@ -1,0 +1,46 @@
+<!doctype html>
+<html>  
+  <head>
+    <title>방탈출 리뷰 어플</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="Location.css"/>
+  </head>
+  <body bgcolor="black">
+  		<header><a href="Escape Review.html" id="home">방탈출 리뷰<br>Escape Review</a></header>
+  		<nav>
+          <table border="1" height=50% width="120px" id="menu">
+            <tr><td class="link" onclick="change1();">- 혜화</td></tr>
+            <tr><td class="link" onclick="change2();">- 건대</td></tr>
+            <tr><td class="link" onclick="change3();">- 신촌</td></tr>
+            <tr><td class="link" onclick="yet();">- 홍대</td></tr>
+            <tr><td class="link" onclick="yet();">- 강남</td></tr> 
+          </table>
+      </nav>
+      <article>
+      		<header>
+      			<h2 id="title">방탈출 위치</h2>
+      		</header>
+          <img src="hyehwa.gif" id="map" class="img" width="45%" height="75%">
+          <script type="text/javascript">
+              function change1(){
+                document.getElementById("map").src="hyehwa.gif";
+              }
+              function change2(){
+                document.getElementById("map").src="Gundae.jpg";
+              }
+              function change3(){
+                document.getElementById("map").src="sinchon.jpg";
+              }
+              function yet(){
+                alert("아직 준비중입니다.");
+              }
+          </script>
+      </article>
+      <aside>
+         <table border="1" height=20% width="120px" id="extra" >
+            <tr><td><a href="notice.html" class="link">- 공지사항</a></td></tr>
+            <tr><td><a href="made.html" class="link">- 제작자</a></td></tr>
+        </table>
+    </aside>
+  </body>
+  </html>

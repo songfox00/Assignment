@@ -1,0 +1,12 @@
+      h1{font-size:60pt;text-align:center;text-shadow:4px 4px 8px grey; font-family:"MD아롱체";font-style:italic;margin-top:15%;color:white}
+      #menu{position:absolute;float:left;top:120px;font-family:"HY엽서M";left:20px;}
+      #home{position:absolute;float:left; font-family:"HY엽서M";font-style:italic;top:20px;font-size:15pt;font-weight:bold;text-shadow:2px 2px 4px grey;color:white;text-decoration:none;left:20px;}
+      #location{position:absolute;color:white;margin-left:40%; top:410px;font-size:17pt;font-family:"MD아롱체"; text-decoration:none}
+      .link{color:white; text-decoration:none}
+      .link:hover{font-size:14pt;transition:font-size:2s;}         
+      #extra{position:absolute; float:right; margin-left:90%;top:300px;font-family:"HY엽서M"}
+      #search{position:absolute; top:170px; margin-left:38%;background-color:black;color:white;font-size:15pt;font-family:"MD아롱체";padding:5px;}
+      #infor{position:fixed;left:84%;margin-right:20px;bottom:20px;font-family:"HY엽서M";color:white}
+      #ins{position:fixed; left:80.5%;bottom:35px;}
+      #face{position:fixed; left:77%;bottom:35px;}
+      #icon{position:absolute;top:171px;margin-left:61%;background-color:black;color:white;font-family:"HY엽서M";font-size:15pt;padding:2px;}

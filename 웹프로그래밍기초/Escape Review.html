@@ -1,0 +1,61 @@
+<!doctype html>
+<html>  
+  <head>
+    <title>방탈출 리뷰 어플</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="EscapeReview.css"/>
+  </head>
+  <body bgcolor="black">
+      <header>
+          <a href="Escape Review.html" id="home">방탈출 리뷰<br>Escape Review</a>
+      </header>
+      <nav>
+          <table border="1" height=70% width="210px" id="menu">
+          <tr><td><a href="review.html" class="link">- 방탈출 후기</a></td></tr>
+          <tr><td><a href="location.html" class="link">- 방탈출카페 위치</a></td></tr>
+          <tr><td><a href="reco.html" class="link">- 난이도별 추천 방탈출</a></td></tr>          
+          <tr><td><a href="event.html" class="link">- 이벤트</a></td></tr>
+          <tr><td><a href="free.html" class="link">- 자유 게시판</a></td></tr>
+          </table>
+      </nav>
+     <article>
+         <form method="get" action="form_app.php">
+         <input type="button" id="search" size="33" name="room" value="방탈출 카페 사이트를 검색하시려면 클릭해주세요" onclick="SearchSite();">
+         </form>
+         <script type="text/javascript">
+        function SearchSite(){
+        var win;
+        var site=prompt("현재 검색 가능한 사이트:\n덤앤더머, 룸즈에이, 넥스트에디션, 비트포비아","");
+        switch(site){
+          case "덤앤더머":
+          win=window.open("http://www.dumbndumber.kr/");
+          break;
+          case "룸즈에이":
+          win=window.open("http://roomsa.co.kr/");
+          break;
+          case "넥스트에디션":
+          win=window.open("https://www.nextedition.co.kr/");
+          break;
+          case "비트포비아":
+          win=window.open("https://www.xphobia.net/");
+          break;
+        }
+        }
+      </script>
+         <h1>ESCAPE<br>&nbsp;&nbsp;REVIEW</h1>
+         <nav><a href="https://store.naver.com/attractions/list?display=9&query=%EC%9A%A9%EC%82%B0%20%EB%B0%A9%ED%83%88%EC%B6%9C&sessionid=n9ysYU3QFq%2FCdYp3thSgZw%3D%3D&sortingOrder=precision&start=1" id="location"><img src="location2.gif" width="40" height="35">내 주변 방탈출 위치 검색하기</a>
+         </nav>
+     </article>
+    
+    <aside>
+        <table border="1" height=20% width="120px" id="extra" >
+            <tr><td><a href="notice.html" class="link">- 공지사항</a></td></tr>
+            <tr><td><a href="made.html" class="link">- 제작자</a></td></tr>
+        </table>
+        <p id="infor">E-mail: XXXXXX@gmail.com<br>phone:010-XXXX-XXXX</p>
+        <a href="https://www.instagram.com/"><img src="instagram.gif" id="ins" width="42" height="37">
+        <a href="https://www.facebook.com/"><img src="facebook.gif" id="face" width="41" height="35">  
+    </aside>
+    
+  </body>
+</html>   
